@@ -1,0 +1,33 @@
+/* Button animation - From http://www.wifeo.com/code/10-css-hover-add-button.html */
+
+.animate_button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: transparent;
+    overflow: hidden;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 1px 1px 6px lightslategrey;
+}
+
+.animate_button:hover {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.animate_button_text {
+    width: 70%;
+    padding-right: 5px;
+    float: right;
+    line-height: 40px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 1.1em;
+    text-align: center;
+    color: lightslategrey;
+}

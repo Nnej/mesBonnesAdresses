@@ -1,0 +1,76 @@
+.page_title {
+    font-family: 'PlayfairDisplay-Regular', Arial, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+* {
+    font-family: 'PlayfairDisplay-Regular', Arial, sans-serif;
+}
+
+h4 {
+    font-size: 0.8em;
+    color: black;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+}
+
+.carrousel_images {
+    /* Center carrousel */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img {
+    height: auto;
+    /*vertical-align: bottom;*/
+}
+
+#describe_text {
+    /* Center text */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: justify;
+}
+
+#map {
+    /* Center map */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+    background-color: dimgrey;
+}
+
+aside {
+    /* Center map */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.aside_element {
+    width: 33%;
+    height: 300px;
+}
+
+#metro_station {
+    text-transform: capitalize;
+}
+
+span {
+    padding-top: 5px;
+    padding-left: 10px;
+}
